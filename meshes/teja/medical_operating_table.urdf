@@ -1,0 +1,22 @@
+<robot name="medical_operating_table">
+	<link name="_name">
+		<visual>
+			<origin xyz="-357.21044453348213 2219.8263478601993 -3075.0" rpy="1.57 0 0" />
+			<geometry>
+				<mesh filename="medical_operating_table/medical_operating_table.obj" scale="10 10 10" />
+			</geometry>
+			<material name="texture">
+				<color rgba="1.0 1.0 1.0 1.0" />
+			</material>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="medical_operating_table/medical_operating_table_vhacd.obj" scale="10 10 10" />
+			</geometry>
+		<origin xyz="-357.21044453348213 2219.8263478601993 -3075.0" rpy="1.57 0 0" /></collision>
+		<inertial>
+			<mass value="1.0" />
+			<inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0" />
+		</inertial>
+	</link>
+</robot>
